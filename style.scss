@@ -10,6 +10,13 @@ html{
 body{
   margin:0;
 }
+.cap{
+  font-weight:bold;
+}
+.char{
+  color:$yellow;
+  font-weight:bold;
+}
 #scrollTop{
   position:fixed;
   z-index: 1;
@@ -991,30 +998,11 @@ section#section11{
 }
 @media(max-width:600px){
   #scrollTop{
-    bottom:20px;
-    right:20px;
-    width:50px;
-    height:50px;
-    font-size: 25px;
-    &:hover{
-      background-color: inherit;
-      color:inherit;
-    }
-    box-shadow:$shadow;
-    bottom:20px;
-    right:20px;
-    width:60px;
-    height:60px;
-    border-radius: 50%;
-    border:2px solid $blue;
-    transition:all 0.3s;
-    cursor: pointer;
-    background:$blue;
-    color:#fff;
-    font-size: 33px;
-    &:hover{
-      background:#fff;
-      color:$blue;
+    a{
+      &:hover{
+        background:$blue;
+        color:#fff;
+      }
     }
   }
   #main-visual{
