@@ -12,6 +12,9 @@ body{
 }
 #scrollTop{
   position:fixed;
+  z-index: 1;
+  text-align: center;
+  justify-content: center;
   box-shadow:$shadow;
   bottom:20px;
   right:20px;
@@ -994,11 +997,30 @@ section#section11{
     height:50px;
     font-size: 25px;
     &:hover{
+      background-color: inherit;
+      color:inherit;
+    }
+    box-shadow:$shadow;
+    bottom:20px;
+    right:20px;
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+    border:2px solid $blue;
+    transition:all 0.3s;
+    cursor: pointer;
+    background:$blue;
+    color:#fff;
+    font-size: 33px;
+    &:hover{
+      background:#fff;
+      color:$blue;
     }
   }
   #main-visual{
     padding:50px 0px 0px;
     box-sizing: border-box;
+    background-size: auto;
     .content{
       width:90%;
       margin:0 auto;
@@ -1232,6 +1254,8 @@ section#section11{
   section#section07{
     padding:60px 15px;
     box-sizing: border-box;
+    background-size: auto;
+    background-position: center;
     h2{
       font-size:22px;
       margin-bottom:50px;
@@ -1314,6 +1338,8 @@ section#section11{
   }
   section#section09{
     padding:50px 15px;
+    background-size: auto;
+    background-position: center;
     h2{
       margin-bottom:50px;
       color:#fff;
