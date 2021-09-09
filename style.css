@@ -1268,10 +1268,10 @@ section#section11 .content .discription p {
 
   section#section07 {
     padding: 60px 15px;
+    background-image: url(images/visual.jfif);
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     background-size: auto;
-    background-position: center;
   }
   section#section07 h2 {
     font-size: 22px;
@@ -1352,8 +1352,8 @@ section#section11 .content .discription p {
 
   section#section09 {
     padding: 50px 15px;
+    background-image: url(images/visual.jfif);
     background-size: auto;
-    background-position: center;
   }
   section#section09 h2 {
     margin-bottom: 50px;
