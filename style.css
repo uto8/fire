@@ -1025,6 +1025,9 @@ section#section11 .content .discription p {
   #scrollTop:hover {
     background: #181D24;
     color: #fff;
+    border-radius:0;
+    hieght:auto;
+    width:auto;
   }
   #scrollTop p{
     text-align:center;
