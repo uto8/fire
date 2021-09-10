@@ -1027,7 +1027,7 @@ section#section11 .content .discription p {
     color: #fff;
     border-radius:0;
     hieght:auto;
-    width:auto;
+    width:max-content;
   }
   #scrollTop p{
     text-align:center;
