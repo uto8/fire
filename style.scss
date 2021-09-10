@@ -38,6 +38,9 @@ body{
     background:#fff;
     color:$blue;
   }
+  p{
+    margin:auto;
+  }
 }
 #main-visual{
   background-image: url(images/main-visual.jfif);
@@ -998,17 +1001,15 @@ section#section11{
 }
 @media(max-width:600px){
   #scrollTop{
-    a{
-      &:hover{
-        background:$blue;
-        color:#fff;
-      }
+    &:hover{
+      background: $blue;
+      color:#fff;
     }
   }
   #main-visual{
     padding:50px 0px 0px;
     box-sizing: border-box;
-    background-size: auto;
+    background-size: cover;
     .content{
       width:90%;
       margin:0 auto;
@@ -1241,9 +1242,9 @@ section#section11{
   }
   section#section07{
     padding:60px 15px;
-    background-image: url(images/visual.jfif);
     box-sizing: border-box;
-    background-size: auto;
+    background-attachment: scroll;
+    background-position: center;
     h2{
       font-size:22px;
       margin-bottom:50px;
@@ -1326,8 +1327,8 @@ section#section11{
   }
   section#section09{
     padding:50px 15px;
-    background-image: url(images/visual.jfif);
-    background-size: auto;
+    background-attachment: scroll;
+    background-position: center;
     h2{
       margin-bottom:50px;
       color:#fff;

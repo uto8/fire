@@ -41,6 +41,9 @@ body {
   background: #fff;
   color: #181D24;
 }
+#scrollTop p {
+  margin: auto;
+}
 
 #main-visual {
   background-image: url(images/main-visual.jfif);
@@ -1019,7 +1022,7 @@ section#section11 .content .discription p {
   }
 }
 @media (max-width: 600px) {
-  #scrollTop a:hover {
+  #scrollTop:hover {
     background: #181D24;
     color: #fff;
   }
@@ -1028,7 +1031,7 @@ section#section11 .content .discription p {
     padding: 50px 0px 0px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    background-size: auto;
+    background-size: cover;
   }
   #main-visual .content {
     width: 90%;
@@ -1252,10 +1255,10 @@ section#section11 .content .discription p {
 
   section#section07 {
     padding: 60px 15px;
-    background-image: url(images/visual.jfif);
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    background-size: auto;
+    background-attachment: scroll;
+    background-position: center;
   }
   section#section07 h2 {
     font-size: 22px;
@@ -1336,8 +1339,8 @@ section#section11 .content .discription p {
 
   section#section09 {
     padding: 50px 15px;
-    background-image: url(images/visual.jfif);
-    background-size: auto;
+    background-attachment: scroll;
+    background-position: center;
   }
   section#section09 h2 {
     margin-bottom: 50px;
