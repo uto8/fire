@@ -238,8 +238,23 @@ section#section03 .box {
   width: 100%;
   margin: 0 auto;
   max-width: 900px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+section#section03 .box .img {
+  width: 25%;
+  padding-right: 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+section#section03 .box .img img {
+  width: 100%;
 }
 section#section03 .box p {
+  margin-top: 0;
+  position: relative;
+  width: 75%;
   border: 2px solid #181D24;
   padding: 20px;
   -webkit-box-sizing: border-box;
@@ -248,6 +263,26 @@ section#section03 .box p {
   line-height: 1.8;
   margin-bottom: 50px;
   color: #3D342E;
+}
+section#section03 .box p::before {
+  content: "";
+  position: absolute;
+  top: 10%;
+  left: -24px;
+  margin-top: -12px;
+  border: 12px solid transparent;
+  border-right: 12px solid #FFF;
+  z-index: 2;
+}
+section#section03 .box p::after {
+  content: "";
+  position: absolute;
+  top: 10%;
+  left: -30px;
+  margin-top: -14px;
+  border: 14px solid transparent;
+  border-right: 14px solid #555;
+  z-index: 1;
 }
 
 section#section04 {
@@ -1022,25 +1057,21 @@ section#section11 .content .discription p {
   }
 }
 @media (max-width: 600px) {
-  #scrollTop{
-    border-radius:0;
-    hieght:auto;
-    width:30px;
+  #scrollTop {
+    width: 30px;
+    height: auto;
+    border-radius: 0;
   }
   #scrollTop:hover {
     background: #181D24;
     color: #fff;
   }
-  #scrollTop p{
-    text-align:center;
-    
-  }
+
   #main-visual {
     padding: 50px 0px 0px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    background-attachment: scroll;
-    background-position: center;
+    background-size: cover;
   }
   #main-visual .content {
     width: 90%;
@@ -1086,6 +1117,8 @@ section#section11 .content .discription p {
   }
   section#section01 {
     padding: 40px 15px;
+    background-attachment: scroll;
+    background-position: center;
   }
   section#section01 h2 {
     color: #181D24;
@@ -1164,11 +1197,21 @@ section#section11 .content .discription p {
   section#section03 .box {
     width: 100%;
   }
+  section#section03 .box .img {
+    padding-right: 15px;
+  }
   section#section03 .box p {
-    padding: 20px;
+    margin: 0;
+    padding: 10px;
     font-size: 16px;
     line-height: 1.5;
     margin-bottom: 50px;
+  }
+  section#section03 .box p:before {
+    top: 5%;
+  }
+  section#section03 .box p:after {
+    top: 5%;
   }
 
   section#section04 {
