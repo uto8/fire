@@ -246,17 +246,6 @@ section#section02 .box ul li:nth-child(2n) {
 section#section02 .box ul li:nth-child(2n+1) {
   background: #BCB3AD;
 }
-section#section02 .img {
-  position: absolute;
-  width: 200px;
-  bottom: 0;
-  right: 0;
-  -webkit-transform: translateY(50%);
-          transform: translateY(50%);
-}
-section#section02 .img img {
-  width: 100%;
-}
 
 section#section03 {
   padding: 120px 15px;
@@ -405,26 +394,22 @@ section#section05 h2 {
 section#section05 .box {
   max-width: 900px;
   margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
-section#section05 .box p {
+section#section05 .box .discription {
+  width: 100%;
+}
+section#section05 .box .discription p {
+  margin-top: 0;
   margin-bottom: 40px;
   font-size: 22px;
   color: #3D342E;
   line-height: 1.8;
 }
-section#section05 .box p span {
+section#section05 .box .discription p span {
   border-bottom: 5px solid #F7A916;
-}
-section#section05 .img {
-  width: 200px;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  -webkit-transform: translateY(50%);
-          transform: translateY(50%);
-}
-section#section05 .img img {
-  width: 100%;
 }
 
 section#section06 {
@@ -809,17 +794,6 @@ section#section11 .content .discription p {
   }
   section#section02 .box ul li p {
     margin-bottom: 0;
-  }
-  section#section02 .img {
-    position: absolute;
-    width: 80px;
-    bottom: 0;
-    right: 0;
-    -webkit-transform: translateY(50%);
-            transform: translateY(50%);
-  }
-  section#section02 .img img {
-    width: 100%;
   }
 
   section#section03 {
@@ -1218,7 +1192,7 @@ section#section11 .content .discription p {
     bottom: 0%;
     -webkit-transform: translateY(50%);
             transform: translateY(50%);
-    width: 40%;
+    width: 100px;
     right: 0;
   }
   section#section01 .box p {
@@ -1369,13 +1343,17 @@ section#section11 .content .discription p {
   section#section05 .box p span {
     border-bottom: 5px solid #F7A916;
   }
-  section#section05 .img{
-      width:80px;
-      position: absolute;
-      bottom:0;
-      right:0;
-      transform:translateY(50%);
-    }
+  section#section05 .img {
+    width: 80px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    -webkit-transform: translateY(50%);
+            transform: translateY(50%);
+  }
+  section#section05 .img img {
+    width: 100%;
+  }
 
   section#section06 {
     padding: 50px 15px;
