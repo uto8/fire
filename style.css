@@ -1072,6 +1072,8 @@ section#section11 .content .discription p {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     background-size: cover;
+    background-attachment: scroll;
+    
   }
   #main-visual .content {
     width: 90%;
