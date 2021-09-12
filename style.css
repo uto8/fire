@@ -1369,6 +1369,13 @@ section#section11 .content .discription p {
   section#section05 .box p span {
     border-bottom: 5px solid #F7A916;
   }
+  section#section05 .img{
+      width:80px;
+      position: absolute;
+      bottom:0;
+      right:0;
+      transform:translateY(50%);
+    }
 
   section#section06 {
     padding: 50px 15px;
