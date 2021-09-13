@@ -671,6 +671,13 @@ section#section11 .content .discription p {
   color: #3D342E;
 }
 
+footer {
+  background: #181D24;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
 @media (max-width: 780px) {
   #scrollTop {
     bottom: 20px;
