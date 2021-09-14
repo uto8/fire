@@ -398,7 +398,6 @@ section#section05 {
   padding: 120px 15px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  position: relative;
 }
 section#section05 h2 {
   font-size: 32px;
@@ -413,10 +412,10 @@ section#section05 .box {
   display: -ms-flexbox;
   display: flex;
   z-index: 2;
-  position: relative;
 }
 section#section05 .box .discription {
   width: 100%;
+  position: relative;
 }
 section#section05 .box .discription p {
   margin-top: 0;
@@ -1261,6 +1260,14 @@ footer {
   section#section02 .box {
     margin: 0 auto;
   }
+  section#section02 .box .discription .img {
+    opacity: 0.4;
+    z-index: -1;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 150px;
+  }
   section#section02 .box p {
     font-size: 16px;
   }
@@ -1382,6 +1389,9 @@ footer {
   section#section05 .box {
     max-width: 900px;
     margin: 0 auto;
+  }
+  section#section05 .box .img {
+    width: 150px;
   }
   section#section05 .box p {
     margin-bottom: 40px;
@@ -1521,6 +1531,12 @@ footer {
   section#section09 .box p {
     font-size: 16px;
     color: #181D24;
+  }
+  section#section09 .box .img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 150px;
   }
 
   section#section10 {
