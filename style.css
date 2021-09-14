@@ -204,16 +204,28 @@ section#section02 .box {
   max-width: 900px;
   margin: 0 auto;
 }
-section#section02 .box .discription {
+section#section02 .box .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+section#section02 .box .content .discription {
   position: relative;
   z-index: 2;
+  width: 70%;
 }
-section#section02 .box .img {
-  width: 100%;
+section#section02 .box .content .img {
+  padding-left: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 30%;
   text-align: right;
 }
-section#section02 .box .img img {
-  width: 150px;
+section#section02 .box .content .img img {
+  width: 100%;
   margin-right: 0;
   margin-left: auto;
 }
@@ -407,9 +419,15 @@ section#section05 .box {
   max-width: 900px;
   margin: 0 auto;
   z-index: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 section#section05 .box .discription {
-  width: 100%;
+  width: 70%;
   position: relative;
 }
 section#section05 .box .discription p {
@@ -423,10 +441,11 @@ section#section05 .box .discription p span {
   border-bottom: 5px solid #F7A916;
 }
 section#section05 .box .img {
+  width: 30%;
   text-align: right;
 }
 section#section05 .box .img img {
-  width: 150px;
+  width: 100%;
 }
 
 section#section06 {
@@ -1228,13 +1247,15 @@ footer {
   section#section02 .box {
     margin: 0 auto;
   }
-  section#section02 .box .discription .img {
-    opacity: 0.4;
-    z-index: -1;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 150px;
+  section#section02 .box .content {
+    display: block;
+  }
+  section#section02 .box .content .img {
+    width: 50%;
+    margin: 0 auto;
+  }
+  section#section02 .box .content .discription {
+    width: 100%;
   }
   section#section02 .box p {
     font-size: 16px;
@@ -1357,17 +1378,22 @@ footer {
   section#section05 .box {
     max-width: 900px;
     margin: 0 auto;
+    display: block;
   }
-  section#section05 .box p {
+  section#section05 .box .discription {
+    width: 100%;
+  }
+  section#section05 .box .discription p {
     margin-bottom: 40px;
     font-size: 16px;
     line-height: 1.8;
   }
-  section#section05 .box p span {
+  section#section05 .box .discription p span {
     border-bottom: 5px solid #F7A916;
   }
-  section#section05 .box .img img {
-    width: 150px;
+  section#section05 .box .img {
+    width: 50%;
+    margin: 0 auto;
   }
 
   section#section06 {
