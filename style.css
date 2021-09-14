@@ -419,33 +419,46 @@ section#section05 .box {
   max-width: 900px;
   margin: 0 auto;
   z-index: 2;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
-section#section05 .box .discription {
+section#section05 .box .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 60px;
+}
+section#section05 .box .content .discription {
   width: 70%;
   position: relative;
 }
-section#section05 .box .discription p {
+section#section05 .box .content .discription p {
   margin-top: 0;
   margin-bottom: 40px;
   font-size: 22px;
   color: #3D342E;
   line-height: 1.8;
 }
-section#section05 .box .discription p span {
+section#section05 .box .content .discription p span {
   border-bottom: 5px solid #F7A916;
 }
-section#section05 .box .img {
+section#section05 .box .content .img {
   width: 30%;
   text-align: right;
 }
-section#section05 .box .img img {
+section#section05 .box .content .img img {
   width: 100%;
+}
+section#section05 .box p {
+  margin-top: 0;
+  margin-bottom: 40px;
+  font-size: 22px;
+  color: #3D342E;
+  line-height: 1.8;
+}
+section#section05 .box p span {
+  border-bottom: 5px solid #F7A916;
 }
 
 section#section06 {
@@ -1378,22 +1391,32 @@ footer {
   section#section05 .box {
     max-width: 900px;
     margin: 0 auto;
+  }
+  section#section05 .box .content {
     display: block;
   }
-  section#section05 .box .discription {
+  section#section05 .box .content .discription {
     width: 100%;
   }
-  section#section05 .box .discription p {
+  section#section05 .box .content .discription p {
     margin-bottom: 40px;
     font-size: 16px;
     line-height: 1.8;
   }
-  section#section05 .box .discription p span {
+  section#section05 .box .content .discription p span {
     border-bottom: 5px solid #F7A916;
   }
-  section#section05 .box .img {
+  section#section05 .box .content .img {
     width: 50%;
     margin: 0 auto;
+  }
+  section#section05 .box p {
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 1.8;
+  }
+  section#section05 .box p span {
+    border-bottom: 5px solid #F7A916;
   }
 
   section#section06 {
