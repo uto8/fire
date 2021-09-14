@@ -204,6 +204,21 @@ section#section02 .box {
   max-width: 900px;
   margin: 0 auto;
 }
+section#section02 .box .discription {
+  position: relative;
+  z-index: 2;
+}
+section#section02 .box .discription .img {
+  opacity: 0.4;
+  z-index: -1;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 300px;
+}
+section#section02 .box .discription .img img {
+  width: 100%;
+}
 section#section02 .box p {
   font-size: 20px;
   color: #181D24;
@@ -397,6 +412,8 @@ section#section05 .box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  z-index: 2;
+  position: relative;
 }
 section#section05 .box .discription {
   width: 100%;
@@ -410,6 +427,17 @@ section#section05 .box .discription p {
 }
 section#section05 .box .discription p span {
   border-bottom: 5px solid #F7A916;
+}
+section#section05 .box .img {
+  width: 300px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  opacity: 0.4;
+}
+section#section05 .box .img img {
+  width: 100%;
 }
 
 section#section06 {
@@ -570,10 +598,23 @@ section#section09 .box {
   padding: 20px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  position: relative;
+  z-index: 2;
 }
 section#section09 .box p {
   font-size: 22px;
   color: #181D24;
+}
+section#section09 .box .img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  opacity: 0.4;
+  z-index: -1;
+}
+section#section09 .box .img img {
+  width: 100%;
 }
 
 section#section10 {
