@@ -102,24 +102,14 @@ body {
   color: #F7A916;
 }
 #main-visual .box a {
-  padding: 20px 55px;
-  border: 2px solid #0A9410;
-  background-color: #0A9410;
-  font-weight: bold;
-  font-size: 22px;
-  color: #fff;
-  text-decoration: none;
-  line-height: 50px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
-#main-visual .box a span {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  margin-right: 30px;
+#main-visual .box a img {
+  width: 380px;
 }
-#main-visual .box a span img {
-  width: 50px;
-  vertical-align: bottom;
+#main-visual .box a:hover {
+  opacity: 0.8;
 }
 
 section#section01 {
@@ -557,25 +547,15 @@ section#section08 .box p.accent {
   font-weight: bold;
 }
 section#section08 .box a {
-  padding: 20px 55px;
-  border: 2px solid #0A9410;
-  background: #0A9410;
-  font-weight: bold;
-  font-size: 22px;
-  color: #fff;
-  text-decoration: none;
-  overflow: hidden;
-  position: relative;
-  display: inline-block;
-  line-height: 50px;
+  width: 380px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
-section#section08 .box a span {
-  width: 50px;
-  margin-right: 30px;
+section#section08 .box a img {
+  width: 380px;
 }
-section#section08 .box a span img {
-  vertical-align: bottom;
-  width: 50px;
+section#section08 .box a:hover {
+  opacity: 0.8;
 }
 
 section#section09 {
@@ -995,30 +975,8 @@ footer {
     font-weight: bold;
   }
   section#section08 .box a {
-    padding: 15px 25px;
-    width: -webkit-max-content;
-    width: -moz-max-content;
-    width: max-content;
-    margin: auto;
-    border: 2px solid #0A9410;
-    background: #0A9410;
-    font-weight: bold;
-    font-size: 22px;
-    color: #fff;
-    text-decoration: none;
-    overflow: hidden;
-    position: relative;
-    display: block;
-  }
-  section#section08 .box a span {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-right: 30px;
-  }
-  section#section08 .box a span img {
-    width: 50px;
-    vertical-align: bottom;
+    display: inline-block;
+    width: 100%;
   }
 
   section#section09 {
@@ -1173,22 +1131,8 @@ footer {
     margin-bottom: 40px;
     color: #F7A916;
   }
-  #main-visual .box a {
-    padding: 10px 5px;
-    font-weight: bold;
-    font-size: 18px;
-    color: #fff;
-    text-decoration: none;
-    line-height: 30px;
-  }
-  #main-visual .box a span {
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
-  }
-  #main-visual .box a span img {
-    width: 30px;
-    vertical-align: bottom;
+  #main-visual .box a img {
+    width: 250px;
   }
 
   section#section01 {
@@ -1490,17 +1434,11 @@ footer {
     font-weight: bold;
   }
   section#section08 .box a {
-    padding: 10px 5px;
-    font-size: 16px;
-    position: relative;
-    display: block;
-    line-height: 30px;
+    display: inline-block;
+    width: 100%;
   }
-  section#section08 .box a span {
-    margin-right: 10px;
-  }
-  section#section08 .box a span img {
-    width: 30px;
+  section#section08 .box a img {
+    width: 250px;
   }
 
   section#section09 {
