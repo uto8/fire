@@ -1196,6 +1196,9 @@ footer {
     font-size: 16px;
     color: #fff;
   }
+  #main-visual h4 br {
+    display: none;
+  }
   #main-visual .box {
     padding: 10px 15px;
     text-align: center;
