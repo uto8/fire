@@ -1179,23 +1179,18 @@ footer {
     font-size: 18px;
     color: #fff;
     text-decoration: none;
-    line-height: 2;
+    line-height: 30px;
   }
   #main-visual .box a span {
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
+    width: 30px;
+    height: 30px;
     margin-right: 10px;
   }
   #main-visual .box a span img {
-    width: 40px;
+    width: 30px;
     vertical-align: bottom;
   }
-  #main-visual .box a {
-    padding: 10px 5px;
-    font-size: 16px;
-    display: inline-block;
-  }
+
   section#section01 {
     padding: 80px 15px;
     background-attachment: scroll;
